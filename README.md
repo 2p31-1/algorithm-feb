@@ -1,11 +1,9 @@
 # 🏃‍♂️ SSAFY 15기 10반 알고리즘 문제풀기 (2월)
 
-# 아래는 샘플입니다
-
 <div align="center">
 
 ![SSAFY](https://img.shields.io/badge/SSAFY-15th-3396F4?style=flat-square&logo=ssafy)
-![Language](https://img.shields.io/badge/language-Python%20|%20Java%20|%20C++-blue?style=flat-square)
+![Language](https://img.shields.io/badge/language-Java%20-blue?style=flat-square)
 ![Period](https://img.shields.io/badge/Period-2026.02-success?style=flat-square)
 
 **함께 성장하는 15기 10반 2월 알고리즘 문제풀이 저장소입니다.** 매주 정해진 문제를 풀고, 서로의 코드를 리뷰하며 더 나은 로직을 고민합니다.
@@ -16,13 +14,13 @@
 
 ## 🧑‍💻 Members
 
-| 이름 | GitHub ID | 주력 언어 | 한마디 |
+| 이름 | GitHub ID | 백준 ID | 한마디 |
 |:---:|:---:|:---:|:---:|
-| **김싸피** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> | 1일 1커밋 가자! |
-| **이싸피** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> | 꼼꼼하게 풀기 |
-| **박싸피** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/> | 효율성 끝판왕 |
-| **최싸피** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> | 파이써닉하게 |
-| **정싸피** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> | 포기하지 말자 |
+| **김용휘** | [@HOKAGO-MEMORIES](https://github.com/HOKAGO-MEMORIES) | [line123](https://www.acmicpc.net/user/line123) | 내일 세상이 무너져도 알고 1문제를 풀겠다 |
+| **김대호** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> | 꼼꼼하게 풀기 |
+| **방지섭** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/> | 효율성 끝판왕 |
+| **전병현** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> | 파이써닉하게 |
+| **조성혁** | [@GithubID](https://github.com/GithubID) | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> | 포기하지 말자 |
 
 <br/>
 
@@ -35,11 +33,13 @@
 
 algorithm-feb
 ├── 1주차
-│   ├── BOJ_1234
-│   │   ├── KimSSAFY.py
-│   │   └── LeeSSAFY.java
-│   └── SWEA_5678
-│       └── ParkSSAFY.cpp
+│   ├── 1일차 - BOJ_1234
+│   │   ├── README.md
+│   │   ├── 김용휘.java
+│   │   └── 김싸피.java
+│   └── 2일차 - SWEA_5678
+│       ├── README.md
+│       └── 김용휘.java
 ├── 2주차
 └── ...
 
@@ -49,17 +49,23 @@ algorithm-feb
 
 ## 📝 Rules & Conventions
 
-### 1. File Naming (파일 명명 규칙)
+### 1. 사용 가이드
+- 각 스터디원은 원본 레포를 Fork하여 문제를 풉니다.
+- 풀이 후 원본 레포로 Pull Request를 생성합니다.
+- 모든 PR은 자유롭게 리뷰할 수 있으며, 리뷰 승인 후 merge된 코드는 원본 레포에 반영됩니다.
+- 원본 레포는 스터디 전체 풀이 아카이브로 사용됩니다.
+
+
+### 2. File Naming (파일 명명 규칙)
 * `이름.확장자` (문제 번호 폴더 안에 있으므로 이름만 명시)
-    * Ex) `KimSSAFY.py`, `LeeSSAFY.java`
+    * Ex) `김용휘.java`, `김싸피.java`
 
-### 2. Commit Message (커밋 메시지 규칙)
-* **플랫폼 문제번호 문제이름 / 이름 / 소요시간**
-* Gitmoji나 복잡한 규칙 대신 통일된 형식을 사용합니다.
-    * Ex) `solve: BOJ 1234 촌수계산 / 김싸피 / 40분`
-    * Ex) `fix: SWEA 5678 수영장 / 이싸피 / 1시간`
+### 3. Commit Message (커밋 메시지 규칙)
+* **플랫폼 문제번호 문제이름 / 이름**
+    * Ex) `BOJ 1234 촌수계산 / 김싸피`
+    * Ex) `SWEA 5678 수영장 / 이싸피`
 
-### 3. Pull Request (PR 규칙)
+### 4. Pull Request (PR 규칙)
 * PR 제목: `[날짜] 이름 문제풀이 제출`
     * Ex) `[260201] 김싸피 문제풀이 제출`
 * PR 본문에는 풀이 접근 방식이나 어려웠던 점을 간단히 기록합니다.
@@ -68,12 +74,51 @@ algorithm-feb
 
 ## 📅 Schedule
 
-| 주차 | 기간 | 주제/유형 | 비고 |
-|:---:|:---:|:---:|:---:|
-| **1주차** | 02.01 ~ 02.07 | 구현, 자료구조 | BOJ 3문제 |
-| **2주차** | 02.08 ~ 02.14 | DFS/BFS | SWEA 집중 |
-| **3주차** | 02.15 ~ 02.21 | DP, 그리디 | IM/A형 대비 |
-| **4주차** | 02.22 ~ 02.28 | 그래프, 백트래킹 | 난이도 상향 |
+### 🟦 1주차 (02.01 ~ 02.07)
+
+| Day | 문제 | 난이도 | 링크 |
+|:--:|:--|:--:|:--|
+| **1일차 (월)** | 보물섬 | 골드 V | https://www.acmicpc.net/problem/2589 |
+| **2일차 (화)** | 문제명 2 | 실버 | https://www.acmicpc.net/problem/번호 |
+| **3일차 (수)** | 문제명 3 | 실버 | https://www.acmicpc.net/problem/번호 |
+| **4일차 (목)** | 문제명 4 | 골드 | https://www.acmicpc.net/problem/번호 |
+| **5일차 (금)** | 문제명 5 | 골드 | https://www.acmicpc.net/problem/번호 |
+
+---
+
+### 🟦 2주차 (02.08 ~ 02.14)
+
+| Day | 문제 | 난이도 | 링크 |
+|:--:|:--|:--:|:--|
+| **6일차 (월)** | 문제명 1 | D3 | https://swexpertacademy.com/문제번호 |
+| **7일차 (화)** | 문제명 2 | D3 | https://swexpertacademy.com/문제번호 |
+| **8일차 (수)** | 문제명 3 | D4 | https://swexpertacademy.com/문제번호 |
+| **9일차 (목)** | 문제명 4 | D4 | https://swexpertacademy.com/문제번호 |
+| **10일차 (금)** | 문제명 5 | D4 | https://swexpertacademy.com/문제번호 |
+
+---
+
+### 🟦 3주차 (02.15 ~ 02.21)
+
+| Day | 문제 | 난이도 | 링크 |
+|:--:|:--|:--:|:--|
+| **11일차** | 문제명 1 | 실버 | 링크 |
+| **12일차** | 문제명 2 | 실버 | 링크 |
+| **13일차** | 문제명 3 | 골드 | 링크 |
+| **14일차** | 문제명 4 | 골드 | 링크 |
+| **15일차** | 문제명 5 | 골드 | 링크 |
+
+---
+
+### 🟦 4주차 (02.22 ~ 02.28)
+
+| Day | 문제 | 난이도 | 링크 |
+|:--:|:--|:--:|:--|
+| **16일차** | 문제명 1 | 골드 | 링크 |
+| **17일차** | 문제명 2 | 골드 | 링크 |
+| **18일차** | 문제명 3 | 골드 | 링크 |
+| **19일차** | 문제명 4 | 골드+ | 링크 |
+| **20일차** | 문제명 5 | 골드+ | 링크 |
 
 <br/>
 

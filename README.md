@@ -91,7 +91,7 @@ algorithm-feb
 
 | Day | 문제 | 난이도 | 링크 |
 |:--:|:--|:--:|:--|
-| **6일차 (월)** | 문제명 1 | D3 | https://swexpertacademy.com/문제번호 |
+| **6일차 (월)** | 파티가 좋아 파티가 좋아 | 골드 V | https://swexpertacademy.com/4055 |
 | **7일차 (화)** | 문제명 2 | D3 | https://swexpertacademy.com/문제번호 |
 | **8일차 (수)** | 문제명 3 | D4 | https://swexpertacademy.com/문제번호 |
 | **9일차 (목)** | 문제명 4 | D4 | https://swexpertacademy.com/문제번호 |

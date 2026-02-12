@@ -95,7 +95,7 @@ algorithm-feb
 | **7일차 (화)** | 좋은수열 | 골드 IV | https://www.acmicpc.net/problem/2661 |
 | **8일차 (수)** | 키 순서 | 골드 IV | https://www.acmicpc.net/problem/2458 |
 | **9일차 (목)** | 주사위 윷놀이 | 골드 II | https://www.acmicpc.net/problem/17825 |
-| **10일차 (금)** | 문제명 5 | D4 | https://www.acmicpc.net/problem/문제번호 |
+| **10일차 (금)** | 로봇 조종하기 | 골드 II | https://www.acmicpc.net/problem/2169 |
 | **스터디** | 벚꽃 내리는 시대에 결투를 | 골드 I | https://www.acmicpc.net/problem/27163 |
 
 ---
